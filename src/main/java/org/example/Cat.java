@@ -1,6 +1,6 @@
 package org.example;
 
-class Cat implements Animal, Pet{
+class Cat extends Animal implements Pet{ // Animal이 변경된 점에 맞춰서 extends Animal로 변경
     public void cry(){
         System.out.println("야옹~!");
     }
